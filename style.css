@@ -117,3 +117,38 @@ hr {
 .attribution a {
     color: yellow;
 }
+
+@media(max-width:1071px) {
+    body {
+        padding: 30px;
+    }
+
+    .container {
+        width: 350px;
+        flex-direction: column;
+        margin-top: 30%;
+    }
+
+    .main_img {
+        width: 250px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -20%;
+        margin-bottom: 80px;
+        position: absolute;
+    }
+
+    .title {
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    .box {
+        padding: 20px;
+        width: 335px;
+    }
+
+    .accordion_items {
+        width: 300px;
+    }
+}
