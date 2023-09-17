@@ -108,3 +108,12 @@ hr {
 .accordion_answer {
     display: none;
 }
+
+.attribution {
+    color: #fff;
+    text-align: center;
+}
+
+.attribution a {
+    color: yellow;
+}
