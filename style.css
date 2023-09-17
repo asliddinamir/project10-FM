@@ -126,7 +126,7 @@ hr {
     .container {
         width: 350px;
         flex-direction: column;
-        margin-top: 30%;
+        margin-top: 100px;
     }
 
     .main_img {
@@ -150,5 +150,33 @@ hr {
 
     .accordion_items {
         width: 300px;
+    }
+}
+
+@media(max-width:390px) {
+    body {
+        padding: 5px;
+        font-size: .68rem;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .main_img {
+        width: 70%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -20%;
+        margin-bottom: 0;
+        position: absolute;
+    }
+
+    .box {
+        width: 90%;
+    }
+
+    .accordion_items {
+        width: 100%;
     }
 }
